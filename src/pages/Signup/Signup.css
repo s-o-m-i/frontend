@@ -1,0 +1,65 @@
+.signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+.signup-form h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: red;
+}
+.signup-form h1 span {
+  color: white;
+}
+.input-field {
+  margin-top: 10px;
+  
+
+}
+.input-field h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+.input-field input {
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid red;
+  width: 100%;
+}
+.input-field input::placeholder {
+  color: white;
+}
+.signup-btn {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none;
+  font-size: 17px;
+
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+
+.roshni{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    filter: blur(200px);
+}
+.ignore-flex{
+    /* background-color: green; */
+    width: 300px;
+}

@@ -1,0 +1,16 @@
+.logout-ignoreflex{
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}

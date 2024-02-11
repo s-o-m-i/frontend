@@ -1,0 +1,40 @@
+/*Never lose hope somi,Anybody can do anything if anyone wants.*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.waves {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .waves canvas {
+    bottom: -34px;
+    position: fixed;
+  }
+}
+.wavesindex {
+  position: relative;
+
+}
+
+.wrapper{
+  background-color: black;
+  color: rgb(158, 9, 9);
+}
